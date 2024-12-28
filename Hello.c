@@ -1,7 +1,12 @@
 # include <stdio.h>
 int main()
 {
-    printf("Hello World\n"); //first code print
+   //***Chapter-1***
+   printf("\n\n***chapter-1***\n\n\n");
+   //
+
+
+    printf("Hello World\n\n"); //first code print
 
 
     //data types
@@ -22,18 +27,17 @@ int main()
     /*this is multiple line comment*/
 
 
-    /* 
-     used '\n' to break line that means it will show outputs
-     line by line.    
-    */
+     
+     /*used '\n' to break line that means it will show outputs
+     line by line.*/
     printf("hello c \n");
     printf("hello adnan \n");
-    printf ("hello Bangladesh\n");
+    printf ("hello Bangladesh\n\n");
 
 
     //printing a variable and breaking line in a single printf function
     printf("age is %d \nstar look like %c \nvalue of pi is %f \n",age,star,pi);
-    printf("a=%d \nb=%d \nc=%d \n",a,b,c);
+    printf("a=%d \nb=%d \nc=%d \n\n",a,b,c);
     //note:-(format specifier and the variable name must be in same serial)
 
 
@@ -46,7 +50,7 @@ int main()
 
     //simple addition program using knnowledge from above
     float x,y;
-    printf("Summetion program started \n\n");
+    printf("*Summetion program* \n");
     printf("Enter a number:- ");
     scanf("%f",&x);
     printf("Enter another number:- ");

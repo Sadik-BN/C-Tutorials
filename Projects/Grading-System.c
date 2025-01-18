@@ -21,11 +21,11 @@ int main()
         {
             printf("nothing to show.Invalid number entered.\nYou got a F in math I guess.\n");
         }
-        else if(marks>=(full*0.9) && marks<=full)
+        else if(marks>(full*0.89) && marks<=full)
         {
             printf("A++\n");
         }
-        else if(marks<(full*0.90) && marks>=(full*0.80))
+        else if(marks<(full*0.90) && marks>(full*0.79))
         {
             printf("A+\n");
         }
